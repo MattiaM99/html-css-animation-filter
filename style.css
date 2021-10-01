@@ -117,12 +117,11 @@
 }
 
 .ex-5-square:hover{
-    width: 90px;
-    height: 90px; 
+    transform: scale(1.5) ; 
 }
 
 .ex-5-square:active{
-
+    transform: scale(0.2);
 }
 
 /* sesto esempio */
@@ -136,3 +135,49 @@
 }
 
 /* settimo esempio */
+
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(0.8) blur(1px);
+}
+
+/* ottavo esempio */
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: brightness(2) contrast(2); 
+    border-radius: 10px;
+}
+
+/* nono esempio */
+
+.ex-9-img{
+    transition: 1s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(.8) drop-shadow(10px 10px 4px black);
+    transform: scale(1.5);
+    border-radius: 10px;
+}
+
+/* decimo esempio */
+
+.ex-10-icon {
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* undicesimo esempio */
+
