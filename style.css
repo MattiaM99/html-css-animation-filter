@@ -121,3 +121,18 @@
     height: 90px; 
 }
 
+.ex-5-square:active{
+
+}
+
+/* sesto esempio */
+
+.ex-6-img{
+    transition: 0.5s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* settimo esempio */
