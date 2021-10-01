@@ -229,3 +229,22 @@
         left: 10%;
     }
 }
+
+/* tredicesimo esempio */
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: spazio-bianco-bottom 2s linear infinite;
+}
+
+@keyframes spazio-bianco-bottom {
+    0%{
+        right: 10%;
+    }
+    50%{
+        top: 0;
+        right: 100%;
+    }
+    100%{
+        right: 10%;
+    }
+} 
